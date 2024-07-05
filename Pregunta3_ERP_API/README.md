@@ -4,6 +4,7 @@ Este proyecto implementa una solución para extraer datos de la JSONPlaceholder 
 
 ## Estructura del Proyecto
 
+```
 project/
 │
 ├── docker-compose.yml
@@ -12,6 +13,7 @@ project/
 ├── data_integration.py
 ├── requirements.txt
 └── README.md
+```
 
 ## Pasos de Implementación
 
