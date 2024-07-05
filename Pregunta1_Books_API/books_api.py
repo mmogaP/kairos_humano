@@ -1,6 +1,8 @@
 import requests
 import csv
 
+##en este caso no encontre una API de libros, por lo que utilice la API de JSONPlaceholder que tiene posts en lugar de libros.
+
 # URL de la API de JSONPlaceholder
 url = "https://jsonplaceholder.typicode.com/posts"
 
