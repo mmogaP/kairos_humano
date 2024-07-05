@@ -75,7 +75,7 @@ Para Google Cloud: Utiliza Cloud Functions con Cloud Scheduler.
 
 ### 7. Ejemplo de Función Lambda
 
-´´´
+```
 import boto3
 import json
 
@@ -87,7 +87,7 @@ return {
     'body': json.dumps('Extracción y carga de datos completada')    
 }
 
-´´´
+```
 
 Notas Adicionales
 
