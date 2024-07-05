@@ -82,10 +82,10 @@ import json
 def lambda_handler(event, context): # Aquí llamarías a tu función extract_and_load_data()
 extract_and_load_data()
 
-    return {
-        'statusCode': 200,
-        'body': json.dumps('Extracción y carga de datos completada')
-    }
+return {
+    'statusCode': 200,
+    'body': json.dumps('Extracción y carga de datos completada')    
+}
 
 ´´´
 
