@@ -68,7 +68,7 @@ docker-compose up -d
 
 ### 6. Actualización Diaria
 
-Para la actualización diaria, se recomienda utilizar un servicio de programación de tareas en la nube:
+Para la actualización diaria, utiliza un servicio de programación de tareas en la nube:
 
 Para AWS: Configura una función Lambda y un evento CloudWatch para ejecutar diariamente.
 Para Google Cloud: Utiliza Cloud Functions con Cloud Scheduler.
@@ -89,7 +89,7 @@ return {
 
 ```
 
-Notas Adicionales
+### Notas Adicionales
 
 La solución utiliza un esquema de base de datos estrella con una tabla de dimensiones (dim_users) y una tabla de hechos (fact_posts).
 Se implementaron mecanismos de logging para rastrear la ejecución y posibles errores.
